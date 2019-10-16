@@ -8,27 +8,27 @@ jQuery(function($) {
 	   Menu
 	   ========================================================================== */
 
-	function menu() {
-		html.toggleClass('menu-active');
-	};
+	// function menu() {
+	// 	html.toggleClass('menu-active');
+	// };
 
-	$('#menu').on({
-		'click': function() {
-			menu();
-		}
-	});
+	// $('#menu').on({
+	// 	'click': function() {
+	// 		menu();
+	// 	}
+	// });
 
-	$('.menu-button').on({
-		'click': function() {
-			menu();
-		}
-	});
+	// $('.menu-button').on({
+	// 	'click': function() {
+	// 		menu();
+	// 	}
+	// });
 
-	$('.hidden-close').on({
-		'click': function() {
-			menu();
-		}
-	});
+	// $('.hidden-close').on({
+	// 	'click': function() {
+	// 		menu();
+	// 	}
+	// });
 
 	/* ==========================================================================
 	   Parallax cover
